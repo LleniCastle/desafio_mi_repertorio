@@ -1,0 +1,8 @@
+
+Started GET / for :: ::1 at Sat Jun 08 2024 19:58:15 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 9 ms Request ID: [98cc0140-7213-43d8-adcb-8a1ce8980ce7]
+
+Started GET / for :: ::1 at Sat Jun 08 2024 19:58:26 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [37505087-c0e0-40e9-8dfb-697d9efc4646]
