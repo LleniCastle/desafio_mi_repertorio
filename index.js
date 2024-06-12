@@ -53,7 +53,7 @@ app.post('/canciones', (req, res) => {
 //Recibe los datos de una canción que se desea editar y la actualiza manipulando el JSON local.
 //semana pasada
 //editar
-app.put('/canciones:id', (req, res) => {
+app.put('/canciones/:id', (req, res) => {
     try {
         const id = parseInt(req.params.id); //para traer el id tambn sirbe const {id} = req. params
         const songs = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -73,7 +73,7 @@ app.put('/canciones:id', (req, res) => {
 //Recibe por queryString el id de una canción y la elimina del repertorio.
 //semana pasada
 //eliminar
-app.delete('/canciones:id', (req, res) => {
+app.delete('/canciones/:id', (req, res) => {
     try {
         const id = parseInt(req.params.id);
         let songs = JSON.parse(fs.readFileSync(filePath, 'utf8'));
